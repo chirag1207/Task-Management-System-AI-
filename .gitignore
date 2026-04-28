@@ -1,0 +1,58 @@
+
+# Node module
+frontend/node_modules/
+node_modules/
+dist/
+.next/
+.nuxt/
+
+# Java/Gradle
+backend/build/
+backend/target/
+*.class
+*.jar
+*.war
+*.ear
+.gradle/
+gradle/
+
+# Database
+*.sql
+*.sqlite
+mysql_data/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.properties.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Docker (optional, keep for CI/CD)
+# .dockerignore
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+tmp/
+temp/
+*.bak
+*.swp
+*~
